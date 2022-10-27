@@ -14,5 +14,5 @@ function clock(){
     
     let result = document.getElementById("result");
     
-    resut.textCountment = hh + ":" + mm + ":" + ss;
+    result.textCountment = hh + ":" + mm + ":" + ss;
 }
