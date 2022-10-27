@@ -12,7 +12,7 @@ function clock(){
     mm = mm<10? "0" + mm:mm;
     ss = ss<10? "0" + ss:ss;
     
-    let result = document.getElementById("result");
+    let result = document.getElementById("result").innerHTML;
     
     result.textCountment = hh + ":" + mm + ":" + ss;
 }
