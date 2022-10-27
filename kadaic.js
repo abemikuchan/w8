@@ -1,7 +1,8 @@
 function start(){
   
-  window.setInterval(function()
-  {
+  window.setInterval(clock, 1000)
+}
+function clock(){
     let now = new Date();
     let hh = now.getHours();
     let mm = now.getMinutes();
@@ -14,6 +15,4 @@ function start(){
     let result = document.getElementById("result");
     
     resut.textCountment = hh + ":" + mm + ":" + ss;
-  }
-  , 1000);
 }
